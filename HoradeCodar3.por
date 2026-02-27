@@ -31,7 +31,7 @@ programa {
     // do primeiro valor pelo segundo e exibir o resultado.
     // ============================================================
 
-/*
+
       inteiro numec1, numec2
       inteiro div
 
@@ -51,21 +51,21 @@ programa {
 
       div= numec1 / numec2
       escreva("Média é:" + div)
-*/
+
 
     // ============================================================
     // 3 - Ordem decrescente
     // Imprimir os números de 10 até 1.
     // ============================================================
 
-    /*
+    
     inteiro numeroDecrescente = 10
 
     enquanto(numeroDecrescente >= 1){
       escreva(numeroDecrescente, "\n")
       numeroDecrescente--
     }
-    */
+    
 
 
     // ============================================================
@@ -74,7 +74,7 @@ programa {
     // Depois divide pela quantidade total (86 números).
     // ============================================================
 
-    /*
+    
     inteiro acumuladorSoma = 0
     real mediaFinal
 
@@ -84,7 +84,7 @@ programa {
 
     mediaFinal = acumuladorSoma / 86.0
     escreva("Média calculada: ", mediaFinal)
-    */
+    
 
 
     // ============================================================
@@ -92,7 +92,7 @@ programa {
     // Considerando que o primeiro número é menor que o segundo.
     // ============================================================
 
-    /*
+    
     inteiro limiteInicial, limiteFinal
     inteiro somaIntervalo = 0
     inteiro quantidadeIntervalo = 0
@@ -111,7 +111,7 @@ programa {
 
     mediaIntervalo = somaIntervalo / quantidadeIntervalo
     escreva("Média do intervalo: ", mediaIntervalo)
-    */
+    
 
 
     // ============================================================
@@ -120,7 +120,7 @@ programa {
     // Repete enquanto o usuário digitar "S".
     // ============================================================
 
-    /*
+    
     cadeia respostaUsuario = "S"
     inteiro totalAprovados = 0
 
@@ -149,7 +149,7 @@ programa {
     }
 
     escreva("Total de aprovados: ", totalAprovados)
-    */
+    
 
 
     // ============================================================
@@ -157,7 +157,7 @@ programa {
     // Só aceita valores dentro do intervalo permitido.
     // ============================================================
 
-    /*
+    
     real vetorNotas[6]
     real somaNotas = 0
     real mediaNotas
@@ -177,7 +177,7 @@ programa {
 
     mediaNotas = somaNotas / 6
     escreva("Média final: ", mediaNotas)
-    */
+    
 
 
     // ============================================================
@@ -185,7 +185,7 @@ programa {
     // N informado pelo usuário.
     // ============================================================
 
-    /*
+    
     inteiro valorLimite
 
     escreva("Digite um número maior que zero: ")
@@ -194,18 +194,18 @@ programa {
     para(inteiro contadorNumero = 1; contadorNumero <= valorLimite; contadorNumero++){
       escreva(contadorNumero, "\n")
     }
-    */
+    
 
 
     // ============================================================
     // 9 - Imprimir os 10 primeiros números maiores que 100
     // ============================================================
 
-    /*
+    
     para(inteiro numeroMaiorQueCem = 101; numeroMaiorQueCem <= 110; numeroMaiorQueCem++){
       escreva(numeroMaiorQueCem, "\n")
     }
-    */
+    
 
 
     // ============================================================
@@ -213,7 +213,7 @@ programa {
     // Lê 10 números e conta quantos estão dentro e fora do intervalo.
     // ============================================================
 
-    /*
+    
     inteiro numeroDigitado
     inteiro dentroIntervalo = 0
     inteiro foraIntervalo = 0
@@ -233,7 +233,7 @@ programa {
 
     escreva("Dentro do intervalo: ", dentroIntervalo, "\n")
     escreva("Fora do intervalo: ", foraIntervalo)
-    */
+    
 
 
     // ============================================================
@@ -241,7 +241,7 @@ programa {
     // O usuário informa N e o programa mostra todas as tabuadas até ele.
     // ============================================================
 
-    /*
+    
     inteiro limiteTabuada
 
     escreva("Digite até qual tabuada deseja: ")
@@ -255,7 +255,7 @@ programa {
         escreva(numeroBase, " x ", multiplicador, " = ", numeroBase * multiplicador, "\n")
       }
     }
-    */
+    
 
   }
 }
